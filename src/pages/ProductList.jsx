@@ -8,7 +8,7 @@ function ProductList() {
 
   const getProducts = async () => {
     const response = await axios.get(
-      'http://localhost:3000/products'
+      ' https://catalog-3.onrender.com/products'
     )
 
     setProducts(response.data)
@@ -22,7 +22,7 @@ function ProductList() {
 
     if (confirmDelete) {
       await axios.delete(
-        `http://localhost:3000/products/${id}`
+        ` https://catalog-3.onrender.com/products/${id}`
       )
 
       getProducts()

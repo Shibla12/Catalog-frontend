@@ -21,7 +21,7 @@ function AddProduct() {
     }
 
     await axios.post(
-      'http://localhost:3000/products',
+      ' https://catalog-3.onrender.com/products',
       newProduct
     )
 

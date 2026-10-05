@@ -14,7 +14,7 @@ function EditProduct() {
   const getProduct = async () => {
 
     const response = await axios.get(
-      `http://localhost:3000/products/${id}`
+      ` https://catalog-3.onrender.com/products/${id}`
     )
 
     setName(response.data.name)
