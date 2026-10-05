@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+
+
+.home {
+  height: calc(100vh-56px);
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home h1 {
+  font-weight: bold;
+}
+
+.home p {
+  color: gray;
+  margin: 15px 0 20px;
+}
+
+
+
+
+.product-page {
+  padding-top: 100px;
+}
+
+.product-page h2 {
+  margin-bottom: 5px;
+}
+
+
+
+
+.form-page {
+  padding-top: 100px;
+  max-width: 650px;
+}
+
+
+
+
+.table {
+  vertical-align: middle;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+
+
+
+.btn {
+  border-radius: 5px;
+}
